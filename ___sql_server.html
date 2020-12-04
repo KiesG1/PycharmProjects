@@ -1,0 +1,1509 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>数据库SQL Server</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/___sql_server/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/___sql_server/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (一级侧栏) -->
+
+      <!-- bg (Rectangle) -->
+      <div id="u4145" class="ax_default shape" data-label="bg">
+        <div id="u4145_div" class=""></div>
+        <div id="u4145_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4146" class="ax_default shape" data-label="bg">
+        <div id="u4146_div" class=""></div>
+        <div id="u4146_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4147" class="ax_default shape ax_default_hidden" data-label="bg" style="display:none; visibility: hidden">
+        <div id="u4147_div" class=""></div>
+        <div id="u4147_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- _Logo- (Group) -->
+      <div id="u4148" class="ax_default" data-label="_Logo-" data-left="52" data-top="77" data-width="30" data-height="36">
+
+        <!-- Shape (Shape) -->
+        <div id="u4149" class="ax_default shape" data-label="Shape">
+          <img id="u4149_img" class="img " src="images/仪表盘/shape_u311.svg"/>
+          <div id="u4149_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- QFusion 控制台 (Rectangle) -->
+      <div id="u4150" class="ax_default shape" data-label="QFusion 控制台">
+        <div id="u4150_div" class=""></div>
+        <div id="u4150_text" class="text ">
+          <p><span style="font-family:'HiraginoSans-W5', 'Hiragino Sans W5', 'Hiragino Sans W4', 'Hiragino Sans', sans-serif;">QFusion </span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC', sans-serif;">控制台</span></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4151" class="ax_default shape" data-label="Shape">
+        <img id="u4151_img" class="img " src="images/仪表盘/shape_u313.svg"/>
+        <div id="u4151_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4152" class="ax_default shape" data-label="Path">
+        <img id="u4152_img" class="img " src="images/仪表盘/path_u314.svg"/>
+        <div id="u4152_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4153" class="ax_default shape" data-label="Path">
+        <img id="u4153_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4153_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4154" class="ax_default shape" data-label="Path">
+        <img id="u4154_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4154_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4155" class="ax_default shape" data-label="Path">
+        <img id="u4155_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4155_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4156" class="ax_default shape" data-label="Path">
+        <img id="u4156_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4156_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4157" class="ax_default shape" data-label="Path">
+        <img id="u4157_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4157_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4158" class="ax_default shape" data-label="Path">
+        <img id="u4158_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4158_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4159" class="ax_default shape" data-label="Path">
+        <img id="u4159_img" class="img " src="images/仪表盘/path_u321.svg"/>
+        <div id="u4159_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4160" class="ax_default shape" data-label="Path">
+        <img id="u4160_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4160_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4161" class="ax_default shape" data-label="Path">
+        <img id="u4161_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4161_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4162" class="ax_default shape" data-label="Path">
+        <img id="u4162_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4162_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4163" class="ax_default shape" data-label="Path">
+        <img id="u4163_img" class="img " src="images/仪表盘/path_u315.svg"/>
+        <div id="u4163_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4164" class="ax_default shape" data-label="Path">
+        <img id="u4164_img" class="img " src="images/仪表盘/path_u326.svg"/>
+        <div id="u4164_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4165" class="ax_default shape" data-label="Path">
+        <img id="u4165_img" class="img " src="images/仪表盘/path_u327.svg"/>
+        <div id="u4165_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4166" class="ax_default shape" data-label="Shape">
+        <img id="u4166_img" class="img " src="images/仪表盘/shape_u328.svg"/>
+        <div id="u4166_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4167" class="ax_default shape" data-label="Path">
+        <img id="u4167_img" class="img " src="images/仪表盘/path_u329.svg"/>
+        <div id="u4167_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Path (Shape) -->
+      <div id="u4168" class="ax_default shape" data-label="Path">
+        <img id="u4168_img" class="img " src="images/仪表盘/path_u330.svg"/>
+        <div id="u4168_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4169" class="ax_default shape" data-label="bg">
+        <div id="u4169_div" class=""></div>
+        <div id="u4169_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 041lishi (Group) -->
+      <div id="u4170" class="ax_default" data-label="041lishi" data-left="1239" data-top="84" data-width="22" data-height="21">
+
+        <!-- Path (Shape) -->
+        <div id="u4171" class="ax_default shape" data-label="Path">
+          <img id="u4171_img" class="img " src="images/仪表盘/path_u333.svg"/>
+          <div id="u4171_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Path (Shape) -->
+        <div id="u4172" class="ax_default shape" data-label="Path">
+          <img id="u4172_img" class="img " src="images/仪表盘/path_u334.svg"/>
+          <div id="u4172_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 个人中心 (Shape) -->
+      <div id="u4173" class="ax_default shape" data-label="个人中心">
+        <img id="u4173_img" class="img " src="images/仪表盘/个人中心_u335.svg"/>
+        <div id="u4173_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4174" class="ax_default paragraph">
+        <div id="u4174_div" class=""></div>
+        <div id="u4174_text" class="text ">
+          <p><span>admin</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4175" class="ax_default paragraph">
+        <div id="u4175_div" class=""></div>
+        <div id="u4175_text" class="text ">
+          <p><span>操作历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4176" class="ax_default paragraph">
+        <div id="u4176_div" class=""></div>
+        <div id="u4176_text" class="text ">
+          <p><span>授权管理</span></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4177" class="ax_default shape" data-label="bg">
+        <div id="u4177_div" class=""></div>
+        <div id="u4177_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 中英切换 (Shape) -->
+      <div id="u4178" class="ax_default shape" data-label="中英切换">
+        <img id="u4178_img" class="img " src="images/仪表盘/中英切换_u340.svg"/>
+        <div id="u4178_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4179" class="ax_default paragraph">
+        <div id="u4179_div" class=""></div>
+        <div id="u4179_text" class="text ">
+          <p><span>时间校对</span></p>
+        </div>
+      </div>
+
+      <!-- icon (Rectangle) -->
+      <div id="u4180" class="ax_default shape ax_default_hidden" data-label="icon" style="display:none; visibility: hidden">
+        <div id="u4180_div" class=""></div>
+        <div id="u4180_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4181" class="ax_default shape" data-label="Shape">
+        <img id="u4181_img" class="img " src="images/仪表盘/shape_u343.svg"/>
+        <div id="u4181_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- icon (Rectangle) -->
+      <div id="u4182" class="ax_default shape ax_default_hidden" data-label="icon" style="display:none; visibility: hidden">
+        <div id="u4182_div" class=""></div>
+        <div id="u4182_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- dashboard (Shape) -->
+      <div id="u4183" class="ax_default shape" data-label="dashboard">
+        <img id="u4183_img" class="img " src="images/仪表盘/dashboard_u345.svg"/>
+        <div id="u4183_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4184" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4184_img" class="img " src="images/仪表盘/combined_shape_u346.svg"/>
+        <div id="u4184_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4185" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4185_img" class="img " src="images/仪表盘/combined_shape_u347.svg"/>
+        <div id="u4185_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4186" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4186_img" class="img " src="images/仪表盘/combined_shape_u348.svg"/>
+        <div id="u4186_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4187" class="ax_default shape" data-label="bg">
+        <div id="u4187_div" class=""></div>
+        <div id="u4187_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4188" class="ax_default shape" data-label="bg">
+        <div id="u4188_div" class=""></div>
+        <div id="u4188_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4189" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4189_img" class="img " src="images/仪表盘/combined_shape_u351.svg"/>
+        <div id="u4189_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4190" class="ax_default shape" data-label="bg">
+        <div id="u4190_div" class=""></div>
+        <div id="u4190_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4191" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4191_img" class="img " src="images/仪表盘/combined_shape_u353.svg"/>
+        <div id="u4191_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4192" class="ax_default shape" data-label="Shape">
+        <img id="u4192_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4192_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4193" class="ax_default shape" data-label="Shape">
+        <img id="u4193_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4193_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4194" class="ax_default shape" data-label="Shape">
+        <img id="u4194_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4194_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- bg (Rectangle) -->
+      <div id="u4195" class="ax_default shape" data-label="bg">
+        <div id="u4195_div" class=""></div>
+        <div id="u4195_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4196" class="ax_default shape" data-label="Shape">
+        <img id="u4196_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4196_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4197" class="ax_default flow_shape">
+        <div id="u4197_div" class=""></div>
+        <div id="u4197_text" class="text ">
+          <p><span>仪表盘</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4197_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4198" class="ax_default flow_shape">
+        <div id="u4198_div" class=""></div>
+        <div id="u4198_text" class="text ">
+          <p><span>数据库MySQL</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4198_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4199" class="ax_default flow_shape">
+        <div id="u4199_div" class=""></div>
+        <div id="u4199_text" class="text ">
+          <p><span>数据库MGR</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4199_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4200" class="ax_default flow_shape">
+        <div id="u4200_div" class=""></div>
+        <div id="u4200_text" class="text ">
+          <p><span>数据库SQL Server</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4200_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4201" class="ax_default flow_shape">
+        <div id="u4201_div" class=""></div>
+        <div id="u4201_text" class="text ">
+          <p><span>数据库Oracle</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4201_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4202" class="ax_default flow_shape">
+        <div id="u4202_div" class=""></div>
+        <div id="u4202_text" class="text ">
+          <p><span>备份任务管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4202_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4203" class="ax_default flow_shape">
+        <div id="u4203_div" class=""></div>
+        <div id="u4203_text" class="text ">
+          <p><span>数据库中间件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4203_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4204" class="ax_default flow_shape">
+        <div id="u4204_div" class=""></div>
+        <div id="u4204_text" class="text ">
+          <p><span>告警中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4204_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4205" class="ax_default flow_shape">
+        <div id="u4205_div" class=""></div>
+        <div id="u4205_text" class="text ">
+          <p><span>日志中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4205_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4206" class="ax_default flow_shape">
+        <div id="u4206_div" class=""></div>
+        <div id="u4206_text" class="text ">
+          <p><span>工作节点</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4206_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4207" class="ax_default flow_shape">
+        <div id="u4207_div" class=""></div>
+        <div id="u4207_text" class="text ">
+          <p><span>存储卷管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4207_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4208" class="ax_default flow_shape">
+        <div id="u4208_div" class=""></div>
+        <div id="u4208_text" class="text ">
+          <p><span>租户管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4208_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4209" class="ax_default flow_shape">
+        <div id="u4209_div" class=""></div>
+        <div id="u4209_text" class="text ">
+          <p><span>平台管理员</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4209_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4210" class="ax_default flow_shape">
+        <div id="u4210_div" class=""></div>
+        <div id="u4210_text" class="text ">
+          <p><span>智能巡检</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4210_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4211" class="ax_default flow_shape">
+        <div id="u4211_div" class=""></div>
+        <div id="u4211_text" class="text ">
+          <p><span>关于我们</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [reference page] -->
+      <div id="u4211_ref" class="reference_page"></div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4212" class="ax_default icon">
+        <img id="u4212_img" class="img " src="images/仪表盘/u374.svg"/>
+        <div id="u4212_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4213" class="ax_default icon">
+        <img id="u4213_img" class="img " src="images/仪表盘/u374.svg"/>
+        <div id="u4213_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4214" class="ax_default icon">
+        <img id="u4214_img" class="img " src="images/仪表盘/u374.svg"/>
+        <div id="u4214_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4215" class="ax_default icon">
+        <img id="u4215_img" class="img " src="images/仪表盘/u374.svg"/>
+        <div id="u4215_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Combined Shape (Shape) -->
+      <div id="u4216" class="ax_default shape" data-label="Combined Shape">
+        <img id="u4216_img" class="img " src="images/仪表盘/combined_shape_u346.svg"/>
+        <div id="u4216_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4217" class="ax_default shape" data-label="Shape">
+        <img id="u4217_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4217_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4218" class="ax_default shape" data-label="Shape">
+        <img id="u4218_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4218_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4219" class="ax_default shape" data-label="Shape">
+        <img id="u4219_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4219_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Shape (Shape) -->
+      <div id="u4220" class="ax_default shape" data-label="Shape">
+        <img id="u4220_img" class="img " src="images/仪表盘/shape_u354.svg"/>
+        <div id="u4220_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4221" class="ax_default icon">
+        <img id="u4221_img" class="img " src="images/仪表盘/u374.svg"/>
+        <div id="u4221_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+      <div id="u4144" style="display:none; visibility:hidden;"></div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4222" class="ax_default shape">
+        <div id="u4222_div" class=""></div>
+        <div id="u4222_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4223" class="ax_default shape">
+        <div id="u4223_div" class=""></div>
+        <div id="u4223_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4224" class="ax_default shape">
+        <div id="u4224_div" class=""></div>
+        <div id="u4224_text" class="text ">
+          <p><span>配置变更</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4225" class="ax_default paragraph">
+        <div id="u4225_div" class=""></div>
+        <div id="u4225_text" class="text ">
+          <p><span>实例集群名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4226" class="ax_default paragraph">
+        <div id="u4226_div" class=""></div>
+        <div id="u4226_text" class="text ">
+          <p><span>计算规格</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4227" class="ax_default paragraph">
+        <div id="u4227_div" class=""></div>
+        <div id="u4227_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial', sans-serif;">IOPS</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;">限制</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4228" class="ax_default paragraph">
+        <div id="u4228_div" class=""></div>
+        <div id="u4228_text" class="text ">
+          <p><span>最大链接数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4229" class="ax_default text_field">
+        <div id="u4229_div" class=""></div>
+        <input id="u4229_input" type="text" value="" class="u4229_input"/>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4230" class="ax_default droplist">
+        <div id="u4230_div" class=""></div>
+        <select id="u4230_input" class="u4230_input">
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4231" class="ax_default shape">
+        <div id="u4231_div" class=""></div>
+        <div id="u4231_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4232" class="ax_default shape">
+        <div id="u4232_div" class=""></div>
+        <div id="u4232_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4233" class="ax_default shape">
+        <div id="u4233_div" class=""></div>
+        <div id="u4233_text" class="text ">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4234" class="ax_default shape">
+        <div id="u4234_div" class=""></div>
+        <div id="u4234_text" class="text ">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4235" class="ax_default paragraph">
+        <div id="u4235_div" class=""></div>
+        <div id="u4235_text" class="text ">
+          <p><span>集群规模</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4236" class="ax_default droplist">
+        <div id="u4236_div" class=""></div>
+        <select id="u4236_input" class="u4236_input">
+          <option class="u4236_input_option" value="3">3</option>
+          <option class="u4236_input_option" value="5">5</option>
+          <option class="u4236_input_option" value="7">7</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u4237" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4238" class="ax_default table_cell">
+          <img id="u4238_img" class="img " src="images/___mysql/u442.png"/>
+          <div id="u4238_text" class="text ">
+            <p><span>集群名称/ID</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4239" class="ax_default table_cell">
+          <img id="u4239_img" class="img " src="images/___mysql/u443.png"/>
+          <div id="u4239_text" class="text ">
+            <p><span>标签</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4240" class="ax_default table_cell">
+          <img id="u4240_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4240_text" class="text ">
+            <p><span>访问地址：端口</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4241" class="ax_default table_cell">
+          <img id="u4241_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4241_text" class="text ">
+            <p><span>规模</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4242" class="ax_default table_cell">
+          <img id="u4242_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4242_text" class="text ">
+            <p><span>数据库版本</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4243" class="ax_default table_cell">
+          <img id="u4243_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4243_text" class="text ">
+            <p><span>运行状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4244" class="ax_default table_cell">
+          <img id="u4244_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4244_text" class="text ">
+            <p><span>存储类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4245" class="ax_default table_cell">
+          <img id="u4245_img" class="img " src="images/___mysql/u446.png"/>
+          <div id="u4245_text" class="text ">
+            <p><span>所有者</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4246" class="ax_default table_cell">
+          <img id="u4246_img" class="img " src="images/___mysql/u450.png"/>
+          <div id="u4246_text" class="text ">
+            <p><span>创建时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4247" class="ax_default table_cell">
+          <img id="u4247_img" class="img " src="images/___mysql/u451.png"/>
+          <div id="u4247_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4248" class="ax_default table_cell">
+          <img id="u4248_img" class="img " src="images/数据库mgr/u2771.png"/>
+          <div id="u4248_text" class="text ">
+            <p><span style="font-family:'ArialMT', 'Arial', sans-serif;font-style:normal;">demo1</span></p><p><span style="font-family:'Arial-ItalicMT', 'Arial Italic', 'Arial', sans-serif;font-style:italic;text-decoration:underline ;">dsadsadsa</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4249" class="ax_default table_cell">
+          <img id="u4249_img" class="img " src="images/数据库mgr/u2772.png"/>
+          <div id="u4249_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4250" class="ax_default table_cell">
+          <img id="u4250_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4250_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4251" class="ax_default table_cell">
+          <img id="u4251_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4251_text" class="text ">
+            <p><span>1主1备1从</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4252" class="ax_default table_cell">
+          <img id="u4252_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4252_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4253" class="ax_default table_cell">
+          <img id="u4253_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4253_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4254" class="ax_default table_cell">
+          <img id="u4254_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4254_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4255" class="ax_default table_cell">
+          <img id="u4255_img" class="img " src="images/数据库mgr/u2773.png"/>
+          <div id="u4255_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4256" class="ax_default table_cell">
+          <img id="u4256_img" class="img " src="images/数据库mgr/u2779.png"/>
+          <div id="u4256_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4257" class="ax_default table_cell">
+          <img id="u4257_img" class="img " src="images/数据库mgr/u2780.png"/>
+          <div id="u4257_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4258" class="ax_default table_cell">
+          <img id="u4258_img" class="img " src="images/___mysql/u462.png"/>
+          <div id="u4258_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4259" class="ax_default table_cell">
+          <img id="u4259_img" class="img " src="images/___mysql/u463.png"/>
+          <div id="u4259_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4260" class="ax_default table_cell">
+          <img id="u4260_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4260_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4261" class="ax_default table_cell">
+          <img id="u4261_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4261_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4262" class="ax_default table_cell">
+          <img id="u4262_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4262_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4263" class="ax_default table_cell">
+          <img id="u4263_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4263_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4264" class="ax_default table_cell">
+          <img id="u4264_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4264_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4265" class="ax_default table_cell">
+          <img id="u4265_img" class="img " src="images/___mysql/u466.png"/>
+          <div id="u4265_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4266" class="ax_default table_cell">
+          <img id="u4266_img" class="img " src="images/___mysql/u470.png"/>
+          <div id="u4266_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u4267" class="ax_default table_cell">
+          <img id="u4267_img" class="img " src="images/___mysql/u471.png"/>
+          <div id="u4267_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4268" class="ax_default shape">
+        <div id="u4268_div" class=""></div>
+        <div id="u4268_text" class="text ">
+          <p><span>新建实例</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u4269" class="ax_default" data-left="293" data-top="163" data-width="130" data-height="22">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u4270" class="ax_default shape">
+          <div id="u4270_div" class=""></div>
+          <div id="u4270_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u4271" class="ax_default icon">
+          <img id="u4271_img" class="img " src="images/___mysql/u474.svg"/>
+          <div id="u4271_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4272" class="ax_default icon">
+        <img id="u4272_img" class="img " src="images/___mysql/u491.svg"/>
+        <div id="u4272_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4273" class="ax_default icon">
+        <img id="u4273_img" class="img " src="images/___mysql/u492.svg"/>
+        <div id="u4273_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4274" class="ax_default droplist">
+        <div id="u4274_div" class=""></div>
+        <select id="u4274_input" class="u4274_input">
+          <option class="u4274_input_option" value="已有标签键">已有标签键</option>
+          <option class="u4274_input_option" value="1">1</option>
+          <option class="u4274_input_option" value="2">2</option>
+          <option class="u4274_input_option" value="3">3</option>
+          <option class="u4274_input_option" value="4">4</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4275" class="ax_default icon">
+        <img id="u4275_img" class="img " src="images/___mysql/u491.svg"/>
+        <div id="u4275_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4276" class="ax_default icon">
+        <img id="u4276_img" class="img " src="images/___mysql/u495.svg"/>
+        <div id="u4276_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u4277" class="ax_default icon">
+        <img id="u4277_img" class="img " src="images/数据库mgr/u2799.svg"/>
+        <div id="u4277_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u4278" class="ax_default">
+        <div id="u4278_state0" class="panel_state" data-label="State1" style="">
+          <div id="u4278_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4279" class="ax_default shape">
+              <div id="u4279_div" class=""></div>
+              <div id="u4279_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4280" class="ax_default shape">
+              <div id="u4280_div" class=""></div>
+              <div id="u4280_text" class="text ">
+                <p><span>创建SQL Server集群</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4281" class="ax_default paragraph">
+              <div id="u4281_div" class=""></div>
+              <div id="u4281_text" class="text ">
+                <p><span>实例集群名称</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4282" class="ax_default paragraph">
+              <div id="u4282_div" class=""></div>
+              <div id="u4282_text" class="text ">
+                <p><span>数据库版本</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4283" class="ax_default paragraph">
+              <div id="u4283_div" class=""></div>
+              <div id="u4283_text" class="text ">
+                <p><span>从库数量</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4284" class="ax_default paragraph">
+              <div id="u4284_div" class=""></div>
+              <div id="u4284_text" class="text ">
+                <p><span>存储空间</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4285" class="ax_default paragraph">
+              <div id="u4285_div" class=""></div>
+              <div id="u4285_text" class="text ">
+                <p><span style="font-family:'ArialMT', 'Arial', sans-serif;">IOPS</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;">限制</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4286" class="ax_default paragraph">
+              <div id="u4286_div" class=""></div>
+              <div id="u4286_text" class="text ">
+                <p><span>最大链接数</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u4287" class="ax_default text_field">
+              <div id="u4287_div" class=""></div>
+              <input id="u4287_input" type="text" value="" class="u4287_input"/>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4288" class="ax_default droplist">
+              <div id="u4288_div" class=""></div>
+              <select id="u4288_input" class="u4288_input">
+              </select>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4289" class="ax_default droplist">
+              <div id="u4289_div" class=""></div>
+              <select id="u4289_input" class="u4289_input">
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4290" class="ax_default shape">
+              <div id="u4290_div" class=""></div>
+              <div id="u4290_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4291" class="ax_default shape">
+              <div id="u4291_div" class=""></div>
+              <div id="u4291_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4292" class="ax_default paragraph">
+              <div id="u4292_div" class=""></div>
+              <div id="u4292_text" class="text ">
+                <p><span>存储类型</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4293" class="ax_default paragraph">
+              <div id="u4293_div" class=""></div>
+              <div id="u4293_text" class="text ">
+                <p><span>标签</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u4294" class="ax_default text_field">
+              <div id="u4294_div" class=""></div>
+              <input id="u4294_input" type="text" value="" class="u4294_input"/>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u4295" class="ax_default text_field">
+              <div id="u4295_div" class=""></div>
+              <input id="u4295_input" type="text" value="" class="u4295_input"/>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4296" class="ax_default droplist">
+              <div id="u4296_div" class=""></div>
+              <select id="u4296_input" class="u4296_input">
+                <option class="u4296_input_option" value="已有标签键">已有标签键</option>
+                <option class="u4296_input_option" value="1">1</option>
+                <option class="u4296_input_option" value="2">2</option>
+                <option class="u4296_input_option" value="3">3</option>
+                <option class="u4296_input_option" value="4">4</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u4297" class="ax_default icon">
+              <img id="u4297_img" class="img " src="images/___mysql/u627.svg"/>
+              <div id="u4297_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4298" class="ax_default paragraph">
+              <div id="u4298_div" class=""></div>
+              <div id="u4298_text" class="text ">
+                <p><span>备份接口</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4299" class="ax_default droplist">
+              <div id="u4299_div" class=""></div>
+              <select id="u4299_input" class="u4299_input">
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4300" class="ax_default label">
+              <div id="u4300_div" class=""></div>
+              <div id="u4300_text" class="text ">
+                <p><span>20GB</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4301" class="ax_default label">
+              <div id="u4301_div" class=""></div>
+              <div id="u4301_text" class="text ">
+                <p><span>1000GB</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4302" class="ax_default label">
+              <div id="u4302_div" class=""></div>
+              <div id="u4302_text" class="text ">
+                <p><span>500GB</span></p>
+              </div>
+            </div>
+
+            <!-- 名称的框 (Rectangle) -->
+            <div id="u4303" class="ax_default shape1" data-label="名称的框">
+              <div id="u4303_div" class=""></div>
+              <div id="u4303_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- numberinput (Text Field) -->
+            <div id="u4304" class="ax_default text_field1" data-label="numberinput">
+              <div id="u4304_div" class=""></div>
+              <input id="u4304_input" type="text" value="20" class="u4304_input"/>
+            </div>
+
+            <!-- +- (Dynamic Panel) -->
+            <div id="u4305" class="ax_default ax_default_hidden" data-label="+-" style="display:none; visibility: hidden">
+              <div id="u4305_state0" class="panel_state" data-label="State1" style="">
+                <div id="u4305_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u4306" class="ax_default _图片">
+                    <img id="u4306_img" class="img " src="images/___mysql/u595.png"/>
+                    <div id="u4306_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u4307" class="ax_default line2">
+                    <img id="u4307_img" class="img " src="images/___mysql/u596.svg"/>
+                    <div id="u4307_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u4308" class="ax_default line2">
+                    <img id="u4308_img" class="img " src="images/___mysql/u597.svg"/>
+                    <div id="u4308_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Image) -->
+                  <div id="u4309" class="ax_default _图片">
+                    <img id="u4309_img" class="img " src="images/___mysql/u595.png"/>
+                    <div id="u4309_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4310" class="ax_default label">
+              <div id="u4310_div" class=""></div>
+              <div id="u4310_text" class="text ">
+                <p><span>GB</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u4311" class="ax_default line3">
+              <img id="u4311_img" class="img " src="images/___mysql/u599.svg"/>
+              <div id="u4311_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u4312" class="ax_default line3">
+              <img id="u4312_img" class="img " src="images/___mysql/u599.svg"/>
+              <div id="u4312_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u4313" class="ax_default line3">
+              <img id="u4313_img" class="img " src="images/___mysql/u599.svg"/>
+              <div id="u4313_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4314" class="ax_default box_21">
+              <div id="u4314_div" class=""></div>
+              <div id="u4314_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4315" class="ax_default box_21">
+              <div id="u4315_div" class=""></div>
+              <div id="u4315_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (SVG) -->
+            <div id="u4316" class="ax_default image">
+              <img id="u4316_img" class="img " src="images/___mysql/u604.svg"/>
+              <div id="u4316_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4317" class="ax_default primary_button">
+              <div id="u4317_div" class=""></div>
+              <div id="u4317_text" class="text ">
+                <p><span>确认</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4318" class="ax_default button">
+              <div id="u4318_div" class=""></div>
+              <div id="u4318_text" class="text ">
+                <p><span>取消</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Hot Spot) -->
+            <div id="u4319" class="ax_default">
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u4320" class="ax_default image1">
+              <img id="u4320_img" class="img " src="images/___mysql/u630.png"/>
+              <div id="u4320_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4321" class="ax_default droplist">
+              <div id="u4321_div" class=""></div>
+              <select id="u4321_input" class="u4321_input">
+                <option class="u4321_input_option" selected value="本地存储">本地存储</option>
+                <option class="u4321_input_option" value="Qstor">Qstor</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u4322" class="ax_default paragraph">
+              <div id="u4322_div" class=""></div>
+              <div id="u4322_text" class="text ">
+                <p><span>备库数量</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u4323" class="ax_default droplist">
+              <div id="u4323_div" class=""></div>
+              <select id="u4323_input" class="u4323_input">
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
