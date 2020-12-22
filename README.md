@@ -1,3 +1,5 @@
+```
+直接拷贝一下yml部署到当前k8s集群，通过kubectl get svc [namespace]查找当前分配到NodePort
 ---
 apiVersion: v1
 kind: Service
@@ -48,3 +50,4 @@ spec:
       volumes:
       - name: work-dir
         emptyDir: {}
+```
