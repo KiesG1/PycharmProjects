@@ -10,25 +10,6 @@
   line-height:normal;
   text-transform:none;
 }
-.shape {
-}
-.ellipse {
-}
-.placeholder {
-}
-.image {
-}
-.box_1 {
-}
-.checkbox {
-  text-align:left;
-}
-.radio_button {
-  text-align:left;
-}
-.tree_node {
-  text-align:left;
-}
 .heading_1 {
   font-family:'ArialMT', 'Arial', sans-serif;
   font-weight:bold;
@@ -73,84 +54,94 @@
 .paragraph {
   text-align:left;
 }
-.table_cell {
-}
-.menu_item {
-}
-.connector {
-}
 .form_hint {
   color:#999999;
 }
 .form_disabled {
 }
-.box_3 {
+.shape {
 }
 .flow_shape {
 }
 .icon {
 }
-.label {
-  font-size:14px;
-  text-align:left;
+.image {
 }
-.text_link {
-  color:#0000FF;
+.ellipse {
 }
-.text_link_mouse_over {
+.image1 {
 }
-.text_link_mouse_down {
-}
-.marker {
-  color:#FFFFFF;
-}
-.droplist {
-  color:#000000;
-  text-align:left;
-}
-.list_box {
-  color:#000000;
-  text-align:left;
-}
-.line {
-}
-.arrow {
-}
-.button {
-}
-.text_field {
-  font-family:'PingFangSC-Regular', 'PingFang SC', sans-serif;
+._图片 {
+  font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
   color:#000000;
-  text-align:left;
 }
-.text_area {
-  color:#000000;
-  text-align:left;
+.line {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight:400;
+  font-style:normal;
 }
-.sticky_1 {
-  text-align:left;
+.box_1 {
+}
+.button {
 }
 .primary_button {
   color:#FFFFFF;
 }
 .line1 {
 }
-.link_button {
-  color:#169BD5;
+.box_11 {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+.label {
+  font-size:14px;
+  text-align:left;
 }
 .shape1 {
   font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
 }
-.table_cell1 {
+.text_field {
   font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
+  color:#000000;
+  text-align:left;
+}
+._表单禁用 {
+}
+.line2 {
 }
 .box_2 {
+}
+.text_field1 {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.tree_node {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+.table_cell {
+}
+.menu_item {
+}
+.line3 {
+}
+.checkbox {
+  text-align:left;
+}
+.table_cell1 {
   font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -167,7 +158,7 @@
   font-size:24px;
   text-align:left;
 }
-.image1 {
+.image2 {
   font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
@@ -180,38 +171,7 @@
   font-size:24px;
   text-align:left;
 }
-.text_field1 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-  color:#000000;
-  text-align:left;
-}
-._表单禁用 {
-}
 ._文本段落 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-  text-align:left;
-}
-._图片 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-  color:#000000;
-}
-.line2 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-}
-.box_11 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-}
-._文本段落1 {
   text-align:left;
 }
 ._多行文本框 {
@@ -221,22 +181,24 @@
   color:#000000;
   text-align:left;
 }
-._形状 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:400;
-  font-style:normal;
-}
 .paragraph1 {
   font-family:'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
   text-align:left;
 }
-._形状1 {
+._文本段落1 {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  text-align:left;
+}
+._形状 {
 }
 .box_21 {
-}
-.line3 {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight:400;
+  font-style:normal;
 }
 ._状态负 {
   font-family:'Microsoft YaHei', sans-serif;
@@ -254,7 +216,17 @@
   color:#FFFFFF;
   line-height:20px;
 }
-.box_31 {
+._形状1 {
+  font-family:'Microsoft YaHei', sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+.marker {
+  color:#FFFFFF;
+}
+.connector {
+}
+.arrow {
 }
 .label1 {
   font-family:'Microsoft YaHei', sans-serif;
@@ -268,18 +240,9 @@
   font-weight:400;
   font-style:normal;
 }
-._二级标题1 {
-  font-family:'Microsoft YaHei', sans-serif;
-  font-weight:700;
-  font-style:normal;
-  font-size:24px;
+.sticky_1 {
   text-align:left;
 }
-.text_link1 {
-  color:#0000FF;
-}
-.text_link_mouse_over1 {
-}
-.text_link_mouse_down1 {
+.box_3 {
 }
 textarea, select, input, button { outline: none; }
