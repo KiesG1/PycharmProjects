@@ -1875,7 +1875,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei', sans-serif;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
 }
@@ -1887,7 +1887,7 @@
   width:1178px;
   height:315px;
   display:flex;
-  font-family:'Microsoft YaHei', sans-serif;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
 }
@@ -2050,7 +2050,7 @@
   width:150px;
   height:40px;
   display:flex;
-  font-family:'微软雅黑', sans-serif;
+  font-family:'MicrosoftYaHei', '微软雅黑', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -2119,7 +2119,7 @@
   width:432px;
   height:40px;
   display:flex;
-  font-family:'微软雅黑', sans-serif;
+  font-family:'MicrosoftYaHei', '微软雅黑', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -2192,7 +2192,7 @@
   width:542px;
   height:40px;
   display:flex;
-  font-family:'微软雅黑', sans-serif;
+  font-family:'MicrosoftYaHei', '微软雅黑', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -2416,7 +2416,7 @@
   width:1130px;
   height:1px;
   display:flex;
-  font-family:'Microsoft YaHei', sans-serif;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;
   font-weight:400;
   font-style:normal;
   font-size:12px;
@@ -2707,7 +2707,7 @@
   border-width:0px;
   position:absolute;
   left:553px;
-  top:431px;
+  top:423px;
   width:53px;
   height:18px;
   display:flex;
@@ -2876,8 +2876,8 @@
 #u12475 {
   border-width:0px;
   position:absolute;
-  left:1320px;
-  top:345px;
+  left:1245px;
+  top:341px;
   width:72px;
   height:25px;
   overflow:hidden;
@@ -3911,4 +3911,34 @@
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
+}
+#u12503_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:20px;
+  height:8px;
+}
+#u12503 {
+  border-width:0px;
+  position:absolute;
+  left:334px;
+  top:346px;
+  width:20px;
+  height:8px;
+  display:flex;
+}
+#u12503 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u12503_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
